@@ -12,5 +12,5 @@ add_pyenv_variables_to_zshrc() {
 }
 
 install_python_37() {
-    pyenv install 3.7.9
+    pyenv install -s 3.7.9
 }
