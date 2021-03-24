@@ -14,3 +14,9 @@ add_pyenv_variables_to_zshrc() {
 install_python_37() {
     pyenv install -s 3.7.9
 }
+
+install_curses() {
+    # You might need this in case of Bazel Latex
+    # https://github.com/pyenv/pyenv/issues/240
+    sudo apt-get install libncurses5 libncurses5-dev libncursesw5
+}
