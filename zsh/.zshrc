@@ -7,12 +7,6 @@ plugins=(git)
 source "${ZSH}/oh-my-zsh.sh"
 
 ###################################
-# FK
-###################################
-source ~/configs/zsh/thefuck.sh
-eval_fk
-
-###################################
 # Bazel
 ###################################
 source ~/configs/bazel/install_bazelisk.sh
@@ -28,6 +22,12 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 export PYENV_VERSION=3.7.9
+
+###################################
+# FK - relies on PY
+###################################
+source ~/configs/zsh/thefuck.sh
+eval_fk
 
 ###################################
 # Git aliases
