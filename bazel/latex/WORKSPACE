@@ -11,7 +11,7 @@ load("@bazel_latex//:repositories.bzl", "latex_repositories")
 
 latex_repositories()
 
-# Then if you are running on Ubuntu, install curses so Python does not compail
+# Then if you are running on Ubuntu, install curses so Python does not complain
 # https://github.com/pyenv/pyenv/issues/240
 # sudo apt-get install libncurses5 libncurses5-dev libncursesw5
 # pyenv install <version>
