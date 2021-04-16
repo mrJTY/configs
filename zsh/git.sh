@@ -6,11 +6,6 @@ alias gd="git diff"
 alias gdh="git diff HEAD"
 alias gs="git status"
 
-function gcm() {
-    local message="$@"
-    git commit -m "${message}"
-}
-
 function gcb() {
     local branch="${1}"
     git checkout -b "${branch}"
