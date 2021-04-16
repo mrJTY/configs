@@ -33,3 +33,8 @@ export PYENV_VERSION=3.7.9
 # Git aliases
 ###################################
 source ~/configs/zsh/git.sh
+
+###################################
+# Environment variables
+###################################
+export EDITOR=nvim

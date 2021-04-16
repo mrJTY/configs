@@ -7,7 +7,7 @@ alias gdh="git diff HEAD"
 alias gs="git status"
 
 function gcm() {
-    local message="${1}"
+    local message="$@"
     git commit -m "${message}"
 }
 
