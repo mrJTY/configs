@@ -1,0 +1,1 @@
+These are example templates to define a new Bazel workspace.
