@@ -1,0 +1,7 @@
+# find out the device
+fdisk -l
+
+# for example, /dev/sda
+
+# install grub, assumes you are logged in a working os
+sudo grub-install --boot-directory=/boot /dev/<device>
